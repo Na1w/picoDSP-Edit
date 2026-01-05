@@ -1,0 +1,17 @@
+[package]
+name = "picoedit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29"
+midir = "0.9"
+crossbeam-channel = "0.5"
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.10"
+cpal = "0.15"
+infinitedsp-core = "0.7.0"
+libm = "0.2"
+rustfft = "6.1"
+rfd = "0.12"
